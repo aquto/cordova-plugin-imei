@@ -7,3 +7,16 @@ If you are not using the Cordova Command-line Interface, follow [Using Plugman t
 Exposes 1 methods:
 
 - __get__: returns IMEI as string
+
+Each method takes two arguments, success and error functions.
+
+Usage examples:
+
+    window.plugins.imei.get(
+      function(imei) {
+        console.log("got imei: " + imei);
+      },
+      function() {
+        console.log("error loading imei");
+      }
+    );

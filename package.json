@@ -5,17 +5,20 @@
   "repository": "https://github.com/aquto/cordova-plugin-imei.git",
   "author": "Josh Runge <joshrunge@gmail.com>",
   "license": "MIT",
-  "platforms": [
+  "cordova": {
+    "id": "cordova-plugin-imei",
+    "platforms": [
       "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "cordova-android"
   ],
   "engines": [
-      {
-          "name": "cordova",
-          "version": ">=3.0.0"
-      },
-      {
-          "name": "cordova-android",
-          "version": ">=3.1.0"
-      }
+    {
+      "name": "cordova",
+      "version": ">=3.1.0"
+    }
   ]
 }

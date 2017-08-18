@@ -1,8 +1,8 @@
 {
   "name": "cordova-plugin-imei",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
-  "repository": "https://github.com/aquto/cordova-plugin-imei.git",
+  "repository": "https://github.com/YosuaZ/cordova-plugin-imei.git",
   "author": "Josh Runge <joshrunge@gmail.com>",
   "license": "MIT",
   "cordova": {
@@ -13,7 +13,8 @@
   },
   "keywords": [
     "cordova",
-    "cordova-android"
+    "cordova-android",
+    "imei"
   ],
   "engines": [
     {

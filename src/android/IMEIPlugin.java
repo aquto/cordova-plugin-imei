@@ -30,22 +30,6 @@ public class IMEIPlugin extends CordovaPlugin {
         cordova.requestPermission(this, requestCode, READ_PHONE_STATE);
       }
 
-    // @Override
-    // public boolean execute(String action, JSONArray args, CallbackContext callbackContext) {
-    //     PluginResult.Status status = PluginResult.Status.OK;
-    //     String result = "";
-
-    //     if (action.equals("get")) {
-    //         TelephonyManager telephonyManager = (TelephonyManager)this.cordova.getActivity().getSystemService(Context.TELEPHONY_SERVICE);
-    //         result = telephonyManager.getDeviceId();
-    //     }
-    //     else {
-    //         status = PluginResult.Status.INVALID_ACTION;
-    //     }
-    //     callbackContext.sendPluginResult(new PluginResult(status, result));
-    //     return true;
-    // }
-
  @Override
   public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
     this.callbackContext = callbackContext;
